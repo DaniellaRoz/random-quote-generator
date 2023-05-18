@@ -1,0 +1,40 @@
+.author-container {
+    width: 672px;
+    height: 150px;
+
+    margin-top: 110px;
+    margin-left: 50px;
+
+    padding: 30px;
+    padding-top: 50px;
+
+    text-decoration: none;
+}
+
+.author {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    size: 24px;
+    line-height: 28px;
+    color: #4F4F4F;
+}
+
+.category {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+}
+
+.author-container:visited {
+    color: inherit;
+}
+
+.author-container:hover {
+    background-color: #333;
+}
+
+.author-container:hover .author {
+    color: #F2F2F2;
+}

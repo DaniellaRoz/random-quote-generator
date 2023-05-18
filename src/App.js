@@ -1,8 +1,9 @@
 import './App.css';
+import SingleQuote from './containers/SingleQuote';
 
 function App() {
     return (
-        <p>Hello world!</p>
+        <SingleQuote />
     );
 }
 
